@@ -1,6 +1,6 @@
 _BASE_: "../densepose_rcnn_R_50_FPN_s1x.yaml"
 MODEL:
-  WEIGHTS: "https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_50_FPN_s1x/143908701/model_final_dd99d2.pkl"
+  WEIGHTS: "https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_50_FPN_s1x/143908701/densepose_rcnn_R_50_FPN_s1x.pkl"
 DATASETS:
   TRAIN: ()
   TEST: ("densepose_coco_2014_minival_100",)

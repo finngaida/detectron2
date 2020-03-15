@@ -1,5 +1,6 @@
 _BASE_: "Base-DensePose-RCNN-FPN.yaml"
 MODEL:
+  DEVICE: "cpu"
   WEIGHTS: "catalog://ImageNetPretrained/MSRA/R-50"
   RESNETS:
     DEPTH: 50
